@@ -1,4 +1,4 @@
-function make(...arg) {
+module.exports = function make(...arg) {
   const arr = [];
   arr.push(...arg);
   function f(...b) {
@@ -10,4 +10,4 @@ function make(...arg) {
     return f;
   }
   return f;
-}
+};
