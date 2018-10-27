@@ -1,0 +1,27 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "codejam-3",
+  "main": "sumOfOther.js",
+  "dependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SystemGhost/rsschool-codejam.git"
+  },
+  "author": "Evgeniy Oleshkevich <jackie07364538@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SystemGhost/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/SystemGhost/rsschool-codejam#readme",
+  "lint": "eslint --ignore-path .gitignore ."
+}
